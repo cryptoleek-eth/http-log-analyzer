@@ -51,6 +51,7 @@ The analyzer will process the included sample log file (`programming-task-exampl
 ## Development
 
 ### Project Structure
+```bash
 ├── src/
 │   ├── __tests__/          # Test files
 │   ├── types/              # TypeScript interfaces
@@ -59,7 +60,7 @@ The analyzer will process the included sample log file (`programming-task-exampl
 │   └── index.ts            # Application entry point
 ├── dist/                   # Compiled JavaScript files
 └── programming-task-example-data.log    # Sample log file
-
+```
 
 ### Available Scripts
 
