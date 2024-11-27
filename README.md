@@ -21,10 +21,9 @@ A TypeScript application that parses HTTP access logs and provides analytics abo
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/http-log-analyzer.git
-cd log-analyzer
+git clone https://github.com/cryptoleek-eth/http-log-analyzer.git
+cd http-log-analyzer
 ```
-
 
 2. Install dependencies:
 ```bash
@@ -53,7 +52,7 @@ The analyzer will process the included sample log file (`programming-task-exampl
 
 ### Project Structure
 ├── src/
-│ ├── tests/ # Test files
+│ ├── __tests__/ # Test files
 │ ├── types/ # TypeScript interfaces
 │ ├── utils/ # Utility classes
 │ ├── services/ # Business logic
@@ -68,6 +67,7 @@ The analyzer will process the included sample log file (`programming-task-exampl
 - `npm start` - Runs the compiled application
 - `npm test` - Runs the test suite
 - `npm run dev` - Runs the application in development mode using ts-node
+- `npx ts-node src/index.ts` - Runs the application in development mode without building
 
 ### Running Tests
 ```bash
@@ -118,14 +118,6 @@ Provides analytics functionality:
 3. Memory usage is not a constraint (file is read entirely into memory)
 4. URLs are case-sensitive
 5. IP addresses are well-formed
-
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
 
 ## License
 
