@@ -52,13 +52,13 @@ The analyzer will process the included sample log file (`programming-task-exampl
 
 ### Project Structure
 ├── src/
-│ ├── __tests__/ # Test files
-│ ├── types/ # TypeScript interfaces
-│ ├── utils/ # Utility classes
-│ ├── services/ # Business logic
-│ └── index.ts # Application entry point
-├── dist/ # Compiled JavaScript files
-└── programming-task-example-data.log # Sample log file
+│   ├── __tests__/          # Test files
+│   ├── types/              # TypeScript interfaces
+│   ├── utils/              # Utility classes
+│   ├── services/           # Business logic
+│   └── index.ts            # Application entry point
+├── dist/                   # Compiled JavaScript files
+└── programming-task-example-data.log    # Sample log file
 
 
 ### Available Scripts
